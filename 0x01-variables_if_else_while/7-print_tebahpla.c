@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	vhar le;
+	char le;
 
 	for (le = 'z'; le >= 'a'; le--)
 		putchar(le);
