@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -prints the number in base 16
+ * main - prints the number in base 16
  * Returns: Always 0
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 		putchar((num % 10) + '0');
 
 	for (la = 'a'; la < 'f'; la++)
-		putchara(la);
+		putchar(la);
 
 	putchar('\n');
 
