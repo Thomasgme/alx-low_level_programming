@@ -8,7 +8,7 @@ int main(void)
 {
 	char le;
 
-	for (le = 'a'; le <= 'z'; lc++)
+	for (le = 'a'; le <= 'z'; le++)
 	{
 		putchar(le);
 	}
