@@ -12,5 +12,5 @@ int main(void)
 
 	printf("\n");
 
-	teturn (0);
+	return (0);
 }
