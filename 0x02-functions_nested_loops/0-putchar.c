@@ -1,10 +1,17 @@
 #include "main.h"
 /**
  * main - return _putchar
- * Return - Always 0
+asidfdsfa * Return - Always 0
  */
 int main(void)
 {
-	 print_alphabet();
+	 char c[] = "_putchar";
+	 int i;
+
+	 for (i = 0; i < 7; i++)
+	 {
+		 _putchar(c[i]);
+	 }
+	 _putchar('\n');
  	 return (0);
 }
