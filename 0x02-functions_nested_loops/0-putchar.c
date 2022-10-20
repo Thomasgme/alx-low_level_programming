@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * main - return _putchar
-asidfdsfa * Return - Always 0
- */
+* main - return _putchar
+* Return - Always 0
+*/
+
 int main(void)
 {
-	 char c[] = "_putchar";
+	 char c[] = "main";
 	 int i;
 
-	 for (i = 0; i < 8; i++)
+	 for (i = 0; i < 9; i++)
 	 {
 		 _putchar(c[i]);
 	 }
