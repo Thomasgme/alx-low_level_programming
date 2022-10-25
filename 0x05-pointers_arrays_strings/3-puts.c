@@ -8,7 +8,7 @@
 int main(void)
 {
 	int sum;
-	charc;
+	char c;
 
 	srand(time(NULL));
 	while (sum <= 2645)
