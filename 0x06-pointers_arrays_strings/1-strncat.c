@@ -4,7 +4,7 @@
  * @dest: the string that will modified.
  * @src: the string that ill be concatenated to @dest.
  * @n: copy up to poistion 'n'
- * @n: copy up to poistion 'n'
+ * Return: a pointer to @dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
