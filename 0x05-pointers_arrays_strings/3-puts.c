@@ -1,22 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - generates random passwords for 101-crackme
- * Return: zero
- */
-int main(void)
-{
-	int sum;
-	char c;
+#include "main.h"
 
-	srand(time(NULL));
-	while (sum <= 2645)
+/**
+ * _puts - minic the stdio version of puts
+ * @str: the value to process to the stdout.
+ */
+void _puts(char *str)
+{
+	while (*str > 0)
 	{
-		c = rand() % 128;
-		sum += c;
-		putchar(c);
+		_putchar(*str);
+		str++;
 	}
-	putchar(2772 - sum);
-	return (0);
+	_putchar('\n');
 }
