@@ -1,31 +1,17 @@
 #include "main.h"
+
 /**
- * _atoi - converts a string to an integer.
- * @s: the string to convert
- * Return: the converted string.
+ * _strlen - return the lenth of the string as an int value
+ * @s: the string to measure.
+ * Return: Int value of the lenth.
  */
-int _atoi(char *s)
+int _strlen(char *s)
 {
-	short boolean;
-	int i, minus, result;
+	int count = 0;
 
-	i = minus = result = boolean = 0;
-	minus = -1;
-
-	while (s[i] != '\0')
+	while (*(s + count) != '\0')
 	{
-		if (s[i] == '-')
-			minus *= -1;
-		if (s[i] >= '0' && s[i] <= '9')
-		{
-			result *= 10;
-			result -= (s[i] - '0');
-			boolean = 1;
-		}
-		else if (boolean == 1)
-			break;
-		i++;
+		count++;
 	}
-	result *= minus;
-	return (result);
+	return (count);
 }
