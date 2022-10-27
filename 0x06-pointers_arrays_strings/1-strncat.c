@@ -8,6 +8,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
+
 	int index_01 = 0;
 	int index_02 = 0;
 
