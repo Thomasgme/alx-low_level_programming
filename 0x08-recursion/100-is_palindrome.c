@@ -19,7 +19,7 @@ int _strlen_recursion(char *s)
  * @l: position
  * Return: boolena/
  */
-int p1(char *s, in l)
+int p1(char *s, int l)
 {
 	if (l < 1)
 	{
