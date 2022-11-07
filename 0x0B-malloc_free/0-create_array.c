@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * create_array - array for prints a string
  * @size: number elements array
