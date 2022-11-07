@@ -42,8 +42,7 @@ char *_strcpy(char *dest, char *src)
  * @str: array of elements
  * Return: pointer
  */
-char * _strdup(char *str)
-
+char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
